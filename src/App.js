@@ -1,23 +1,52 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar';
+import LandingPage from './components/landing-section';
+import EducationalBackground from './components/educational-background-section';
+import WorkingExperience from './components/working-experience-section';
+import Skills from './components/skills-section';
+import Portfolio from './components/portfolio-section';
+import Seminar from './components/seminar-section';
+import ContactMe from './components/contact-section';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="relative">
+      <Navbar />
+      
+      {/* LANDING PAGE SECTION */}
+      <section id="home">
+        <LandingPage />
+      </section>
+      
+      {/* EDUCATIONAL BACKGROUND SECTION */}
+      <section id="education">
+        <EducationalBackground />
+      </section>
+      
+      {/* WORKING EXPERIENCE SECTION */}  
+      <section id="experience">
+        <WorkingExperience />
+      </section>
+      
+      {/* SKILLS SECTION */}
+      <section id="skills">
+        <Skills />
+      </section>
+      
+      {/* PORTFOLIO SECTION */}
+      <section id="portfolio">
+        <Portfolio />
+      </section>
+      
+      {/* SEMINARS SECTION */}
+      <section id="seminar">
+        <Seminar />
+      </section>
+      
+      {/* CONTACT SECTION */}
+      <section id="contact">
+        <ContactMe />
+      </section>
     </div>
   );
 }
