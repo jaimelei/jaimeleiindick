@@ -4,11 +4,11 @@ function LandingPage() {
   return (
     <div className="bg-landing bg-cover bg-center h-screen flex items-center justify-center px-6 lg:px-12">
       <div className="w-full max-w-7xl px-4 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-center">
           
           {/* Left Column */}
           <div className="text-white text-center lg:text-left">
-            <div className="space-y-4 md:space-y-6">
+            <div className="space-y-4 pt-20 md:pt-0 md:space-y-6">
               <p className="font-montserrat text-base md:text-xl xl:text-5xl">
                 Hello, my name is
               </p>
@@ -20,7 +20,7 @@ function LandingPage() {
               </p>
             </div>
 
-            <div className="flex flex-wrap justify-center lg:justify-start gap-3 md:gap-4 mt-10 md:mt-12 font-montserrat">
+            <div className="flex flex-wrap justify-center lg:justify-start gap-3 md:gap-4 mt-4 md:mt-12 font-montserrat">
               <a
                 href="https://github.com/jaimelei"
                 target="_blank"
@@ -44,7 +44,7 @@ function LandingPage() {
           <img
             src="/assets/images/misc/photo.jpg"
             alt="Graduation Photo"
-            className="mx-auto h-[400px] md:h-[500px] xl:h-[700px] border-2 border-white object-cover rounded-2xl shadow-lg"
+            className="mx-auto h-[300px] md:h-[500px] xl:h-[700px] border-2 border-white object-cover rounded-2xl shadow-lg"
           />
         </div>
       </div>
