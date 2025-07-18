@@ -47,7 +47,7 @@ function ContactSection() {
       <div className="w-full max-w-5xl md:max-w-[80%] lg:max-w-[60%]">
         {/* Section Heading */}
         <h3 className="text-[#9E6D0C] font-squada text-4xl md:text-6xl pb-12 text-center">
-          Contact Message
+          Contact Me
         </h3>
 
         {/* Contact Info */}
